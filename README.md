@@ -1,6 +1,6 @@
 # \<my-listfilter\>
 
-dfdf
+Custom listfilter element
 
 ## Install the Polymer-CLI
 

@@ -45,10 +45,8 @@ class MyListfilter extends PolymerElement {
   }
    filterList() {
     var items = this.$.list.children;
-    console.log(items)
     for (var i = 0; i < items.length; i++) {
       var item = items[i];
-      console.log(item)
       if (item.textContent.includes(this.prop1)) {
         item.classList.remove('hidden');
       } else {
